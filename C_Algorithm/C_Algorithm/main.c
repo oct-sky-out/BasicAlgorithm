@@ -11,7 +11,7 @@
 #include "triangle.h"
 //ch2
 #include "structure1.h"
-
+#include "structure2.h"
 
 int main(int argc, const char * argv[]) {
   // ch 1
@@ -29,5 +29,7 @@ int main(int argc, const char * argv[]) {
 //  watchArraySwap();
 //  changeDigit();
 //  getPrimeUnderTheN();
+//  dayOfYear();
+  dateAfter();
   return 0;
 }
