@@ -6,9 +6,11 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
 // ch1
 #include "triangle.h"
 //ch2
+#include "structure1.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -20,5 +22,12 @@ int main(int argc, const char * argv[]) {
 //  reverseStarPyramid(10);
   
   // ch2
+//  array1();
+//  callocExample();
+//  callocArray();
+//  arraySwap();
+//  watchArraySwap();
+//  changeDigit();
+//  getPrimeUnderTheN();
   return 0;
 }
