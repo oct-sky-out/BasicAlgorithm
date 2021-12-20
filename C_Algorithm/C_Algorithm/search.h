@@ -155,6 +155,7 @@ void binarySearch2(void){
     if(*(arr + centerPointer) > searchNumber)
       rightPointer = centerPointer - 1;
   }
+  free(arr);
 }
 
 int frontIndex(int *arr, int index, int searchNumber){
