@@ -12,6 +12,8 @@
 //ch2
 #include "structure1.h"
 #include "structure2.h"
+//ch3
+#include "search.h"
 
 int main(int argc, const char * argv[]) {
   // ch 1
@@ -30,6 +32,12 @@ int main(int argc, const char * argv[]) {
 //  changeDigit();
 //  getPrimeUnderTheN();
 //  dayOfYear();
-  dateAfter();
+//  dateAfter();
+  
+  // ch3
+//  linearSearchForVersion();
+//  linearSearchWhileVersion();
+//  binarySearch();
+  binarySearch2();
   return 0;
 }
