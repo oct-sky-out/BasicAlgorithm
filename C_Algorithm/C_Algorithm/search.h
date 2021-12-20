@@ -163,5 +163,71 @@ int frontIndex(int *arr, int index, int searchNumber){
     return frontIndex(arr, index - 1, searchNumber);
   return index + 1;
 }
+
+// stdlib - bsearch
+int compareCallback(const int* a,const int* b){
+  if(*a > *b){
+    return 1;
+  }
+  if(*a < *b){
+    return -1;
+  }
+  return 0;
+}
+
+void libraryBinarySearch (void){
+  int size = 0;
+  int searchNumber = 0;
+  int* arr;
+  int* result;
+  
+  printf("정수 배열 요소의 개수 : ");
+  scanf("%d", &size);
+  arr = calloc(size, sizeof(int));
+  
+  for (int i = 0; i < size; i++) {
+    printf("요소 %d : ", i);
+    scanf("%d", arr + i);
+  }
+  
+  printf("배열 내의 정수 검색 요소 : ");
+  scanf("%d", &searchNumber);
+  
+  // key = 검색요소 포인터, base = 배열 포인터, nel = 배열사이즈, width = 배열 한칸의 자료 사이즈, 오름차순 내림차순에 따른 콜백함수
+  result = bsearch(&searchNumber, arr, size, sizeof(int), (int(*)(const void *, const void *)) compareCallback);
+  printf("%d", *result);
+  free(arr);
+}
+
+// 구조체 이진탐색
+typedef struct {
+  char name[30];
+  int age;
+  int height;
+} Person;
+
+int nameSearch (const Person* a,const Person* b){
+  return strcmp(a -> name, b -> name);
+}
+
+void personSearch (void){
+  Person person[] = {
+    { "bar", 21, 162 },
+    { "foo", 52, 156 },
+    { "foo", 51, 156 },
+    { "hendy", 41, 167 },
+    { "karl", 33, 178 },
+    { "mars", 28, 181 }
+  };
+  char name[30];
+  Person *result;
+  
+  printf("검색할 이름 : ");
+  scanf("%s", name);
+  
+  result = bsearch(&name, person, 6, sizeof(Person), (int(*)(const void *, const void *))nameSearch);
+  
+  printf("이름 : %s , %d \n", result -> name, result -> age);
+}
 #endif /* search_h */
  

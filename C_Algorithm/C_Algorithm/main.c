@@ -7,6 +7,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 // ch1
 #include "triangle.h"
 //ch2
@@ -38,6 +39,8 @@ int main(int argc, const char * argv[]) {
 //  linearSearchForVersion();
 //  linearSearchWhileVersion();
 //  binarySearch();
-  binarySearch2();
+//  binarySearch2();
+//  libraryBinarySearch();
+  personSearch();
   return 0;
 }
