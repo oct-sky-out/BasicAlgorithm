@@ -29,6 +29,8 @@
 		86250531276CA4D300499F66 /* triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = triangle.h; sourceTree = "<group>"; };
 		869D9A98276DDB6C00012A83 /* structure1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structure1.h; sourceTree = "<group>"; };
 		869D9A99276E2A8400012A83 /* structure2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structure2.h; sourceTree = "<group>"; };
+		86BE853E2773753B0077A455 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		86BE853F27737FE90077A455 /* stackQueueExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stackQueueExample.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				8625052A276CA49600499F66 /* main.c */,
+				86BE853F27737FE90077A455 /* stackQueueExample.h */,
+				86BE853E2773753B0077A455 /* stack.h */,
 				861835B0277029FA00F5E7EF /* search.h */,
 				869D9A98276DDB6C00012A83 /* structure1.h */,
 				86250531276CA4D300499F66 /* triangle.h */,

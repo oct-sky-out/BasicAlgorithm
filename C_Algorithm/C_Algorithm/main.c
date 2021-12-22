@@ -15,6 +15,10 @@
 #include "structure2.h"
 //ch3
 #include "search.h"
+//ch4
+#include "stack.h"
+
+#include "stackQueueExample.h"
 
 int main(int argc, const char * argv[]) {
   // ch 1
@@ -41,6 +45,9 @@ int main(int argc, const char * argv[]) {
 //  binarySearch();
 //  binarySearch2();
 //  libraryBinarySearch();
-  personSearch();
+//  personSearch();
+  
+  //ch4
+  useStackExample1();
   return 0;
 }
