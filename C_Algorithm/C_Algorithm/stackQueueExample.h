@@ -70,6 +70,70 @@ void useStackExample1(void){
   }
 }
 
+void useQueueExample(void){
+  IntQueue queue;
+  printf("큐 자료구조 크기 : ");
+  scanf("%d", &queue.max);
+  
+  initializeQueue(&queue, queue.max);
+  
+  while(1){
+    int selectNumber = 0;
+    int num = 0;
+    printf("--------------------------------------\n");
+    printf("1. enqueue\t2. dequeue\t 3.peek\t4.clear queue\n5. queue capacity\t6.assigned size\t7.is queue empty\t8. is queue full\n9. number search in the queue\t10. print queue\t0. end process\n");
+    printf("--------------------------------------\n");
+    printf("메뉴 선택 : ");
+    scanf("%d", &selectNumber);
+    if(selectNumber == 1){
+      printf("enqueue 할 정수 : ");
+      scanf("%d", &num);
+      enqueue(&queue, num);
+    }
+    if(selectNumber == 2){
+      dequeue(&queue, &num);
+      printf("dequeue된 data : %d\n", num);
+    }
+    if(selectNumber == 3){
+      peekQueue(&queue, &num);
+      printf("queue의 peek값 : %d\n", num);
+    }
+    if(selectNumber == 4){
+      clearQueue(&queue);
+      printf("clear complete\n");
+    }
+    if(selectNumber == 5){
+      printf("queue의 용량 : %d\n", capacityQueue(&queue));
+    }
+    if(selectNumber == 6){
+      printf("queue에 할당된 사이즈 : %d\n", assignedQueueSize(&queue));
+    }
+    if(selectNumber == 7){
+      int result = 0;
+      result = isEmptyQueue(&queue);
+      printf("queue가 비어있는가? : %s\n", result == -1 ? "false" : "true");
+    }
+    if(selectNumber == 8){
+      int result = 0;
+      result = isFullQueue(&queue);
+      printf("queue가 꽉차있나? : %s\n", result == -1 ? "false" : "true");
+    }if(selectNumber == 9){
+      int searchNumber = 0;
+      printf("queue에서 검색할 정수 :");
+      scanf("%d", &searchNumber);
+      printf("%d의 검색 결과 : %s\n",searchNumber, searchQueue(&queue, searchNumber) == 0 ? "true" : "false");
+    }
+    if(selectNumber == 10)
+      printQueue(&queue);
+    if(selectNumber == 0){
+      disorganizationQueue(&queue);
+      printf("프로세스 종료");
+      return;
+    }
+  }
+}
+
+
 #define stackQueueExample_h
 
 

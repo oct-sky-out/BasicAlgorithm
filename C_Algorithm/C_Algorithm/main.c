@@ -17,8 +17,10 @@
 #include "search.h"
 //ch4
 #include "stack.h"
-
+#include "queue.h"
+#include "lingQueue.h"
 #include "stackQueueExample.h"
+#include "lingQueueExample.h"
 
 int main(int argc, const char * argv[]) {
   // ch 1
@@ -48,6 +50,8 @@ int main(int argc, const char * argv[]) {
 //  personSearch();
   
   //ch4
-  useStackExample1();
+//  useStackExample1();
+  useQueueExample();
+//  useLingQueueExample();
   return 0;
 }
