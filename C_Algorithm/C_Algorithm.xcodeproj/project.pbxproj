@@ -27,6 +27,8 @@
 		86250527276CA49600499F66 /* C_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		8625052A276CA49600499F66 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		86250531276CA4D300499F66 /* triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = triangle.h; sourceTree = "<group>"; };
+		862CBBB9277A012A00ADF3CF /* factorial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = factorial.h; sourceTree = "<group>"; };
+		862CBBBA277A0BB000ADF3CF /* euclid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = euclid.h; sourceTree = "<group>"; };
 		86679171277847D7005CE8DC /* lingQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lingQueue.h; sourceTree = "<group>"; };
 		8667917227785141005CE8DC /* lingQueueExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lingQueueExample.h; sourceTree = "<group>"; };
 		8667917427786511005CE8DC /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
@@ -67,6 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				8625052A276CA49600499F66 /* main.c */,
+				862CBBBA277A0BB000ADF3CF /* euclid.h */,
+				862CBBB9277A012A00ADF3CF /* factorial.h */,
 				8667917427786511005CE8DC /* queue.h */,
 				8667917227785141005CE8DC /* lingQueueExample.h */,
 				86BE853F27737FE90077A455 /* stackQueueExample.h */,

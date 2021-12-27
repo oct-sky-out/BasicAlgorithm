@@ -21,6 +21,9 @@
 #include "lingQueue.h"
 #include "stackQueueExample.h"
 #include "lingQueueExample.h"
+// ch5
+#include "factorial.h"
+#include "euclid.h"
 
 int main(int argc, const char * argv[]) {
   // ch 1
@@ -51,7 +54,12 @@ int main(int argc, const char * argv[]) {
   
   //ch4
 //  useStackExample1();
-  useQueueExample();
+//  useQueueExample();
 //  useLingQueueExample();
+  
+  //ch5
+//  factorialExample();
+//  euclidExample();
+  multipleEuclid();
   return 0;
 }
