@@ -8,25 +8,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-// ch1
+// ch1 "배열의 자료구조를 활용한 알고리즘"
 #include "triangle.h"
-//ch2
+//ch2 "구조체와 배열"
 #include "structure1.h"
 #include "structure2.h"
-//ch3
+//ch3 "검색 알고리즘"
 #include "search.h"
-//ch4
+//ch4 "스택과 큐, 링큐(링크드 리스트) 자료구조"
 #include "stack.h"
 #include "queue.h"
 #include "lingQueue.h"
 #include "stackQueueExample.h"
 #include "lingQueueExample.h"
-// ch5
+// ch5 "재귀 알고리즘"
 #include "factorial.h"
 #include "euclid.h"
 #include "analysisRecursionFunction.h"
 #include "hanoi.h"
 #include "queen.h"
+//ch6 "정렬 알고리즘"
+#include "bubbleSort.h"
 
 int main(int argc, const char * argv[]) {
   // ch 1
@@ -66,6 +68,9 @@ int main(int argc, const char * argv[]) {
 //  multipleEuclid();
 //  recursionFunctionExample();
 //  hanoiExample();
-  queenExample();
+//  queenExample();
+  
+  // ch6
+  bubbleSort();
   return 0;
 }
