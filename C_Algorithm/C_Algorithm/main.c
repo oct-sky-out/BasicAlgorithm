@@ -26,6 +26,7 @@
 #include "euclid.h"
 #include "analysisRecursionFunction.h"
 #include "hanoi.h"
+#include "queen.h"
 
 int main(int argc, const char * argv[]) {
   // ch 1
@@ -64,6 +65,7 @@ int main(int argc, const char * argv[]) {
 //  euclidExample();
 //  multipleEuclid();
 //  recursionFunctionExample();
-  hanoiExample();
+//  hanoiExample();
+  queenExample();
   return 0;
 }
