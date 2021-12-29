@@ -29,48 +29,50 @@
 #include "queen.h"
 //ch6 "정렬 알고리즘"
 #include "bubbleSort.h"
+#include "selectionSort.h"
 
 int main(int argc, const char * argv[]) {
   // ch 1
-//  triangleRightBottom(5);
-//  triangleLeftTop(5);
-//  triangleRightTop(5);
-//  starPyramid(10);
-//  reverseStarPyramid(10);
+  //  triangleRightBottom(5);
+  //  triangleLeftTop(5);
+  //  triangleRightTop(5);
+  //  starPyramid(10);
+  //  reverseStarPyramid(10);
   
   // ch2
-//  array1();
-//  callocExample();
-//  callocArray();
-//  arraySwap();
-//  watchArraySwap();
-//  changeDigit();
-//  getPrimeUnderTheN();
-//  dayOfYear();
-//  dateAfter();
+  //  array1();
+  //  callocExample();
+  //  callocArray();
+  //  arraySwap();
+  //  watchArraySwap();
+  //  changeDigit();
+  //  getPrimeUnderTheN();
+  //  dayOfYear();
+  //  dateAfter();
   
   // ch3
-//  linearSearchForVersion();
-//  linearSearchWhileVersion();
-//  binarySearch();
-//  binarySearch2();
-//  libraryBinarySearch();
-//  personSearch();
+  //  linearSearchForVersion();
+  //  linearSearchWhileVersion();
+  //  binarySearch();
+  //  binarySearch2();
+  //  libraryBinarySearch();
+  //  personSearch();
   
   //ch4
-//  useStackExample1();
-//  useQueueExample();
-//  useLingQueueExample();
+  //  useStackExample1();
+  //  useQueueExample();
+  //  useLingQueueExample();
   
   //ch5
-//  factorialExample();
-//  euclidExample();
-//  multipleEuclid();
-//  recursionFunctionExample();
-//  hanoiExample();
-//  queenExample();
+  //  factorialExample();
+  //  euclidExample();
+  //  multipleEuclid();
+  //  recursionFunctionExample();
+  //  hanoiExample();
+  //  queenExample();
   
   // ch6
-  bubbleSort();
+  //  bubbleSort();
+  selectionSort();
   return 0;
 }
