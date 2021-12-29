@@ -30,6 +30,7 @@
 		862CBBB9277A012A00ADF3CF /* factorial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = factorial.h; sourceTree = "<group>"; };
 		862CBBBA277A0BB000ADF3CF /* euclid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = euclid.h; sourceTree = "<group>"; };
 		862CBBBB277A1B4600ADF3CF /* analysisRecursionFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = analysisRecursionFunction.h; sourceTree = "<group>"; };
+		8635AF4B277AFDBD00697B42 /* hanoi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hanoi.h; sourceTree = "<group>"; };
 		86679171277847D7005CE8DC /* lingQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lingQueue.h; sourceTree = "<group>"; };
 		8667917227785141005CE8DC /* lingQueueExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lingQueueExample.h; sourceTree = "<group>"; };
 		8667917427786511005CE8DC /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				8625052A276CA49600499F66 /* main.c */,
+				8635AF4B277AFDBD00697B42 /* hanoi.h */,
 				862CBBBB277A1B4600ADF3CF /* analysisRecursionFunction.h */,
 				862CBBBA277A0BB000ADF3CF /* euclid.h */,
 				862CBBB9277A012A00ADF3CF /* factorial.h */,

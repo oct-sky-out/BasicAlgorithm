@@ -25,6 +25,7 @@
 #include "factorial.h"
 #include "euclid.h"
 #include "analysisRecursionFunction.h"
+#include "hanoi.h"
 
 int main(int argc, const char * argv[]) {
   // ch 1
@@ -62,6 +63,7 @@ int main(int argc, const char * argv[]) {
 //  factorialExample();
 //  euclidExample();
 //  multipleEuclid();
-  recursionFunctionExample();
+//  recursionFunctionExample();
+  hanoiExample();
   return 0;
 }
