@@ -25,8 +25,7 @@ void insertionSort(void){
   
   for (int i = 1; i < size; i++) {
     int currentValue = arr[i];
-    int j = i;
-    for (; j > 0; j--) {
+    for (int j = i; j > 0; j--) {
       if(arr[j - 1] < currentValue)
         break;
       if(arr[j] < arr[j - 1]){
