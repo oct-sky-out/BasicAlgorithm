@@ -31,6 +31,7 @@
 #include "bubbleSort.h"
 #include "selectionSort.h"
 #include "quickSort.h"
+#include "mergeSort.h"
 
 int main(int argc, const char * argv[]) {
   // ch 1
@@ -76,6 +77,7 @@ int main(int argc, const char * argv[]) {
   //  bubbleSort();
 //  selectionSort();
 //  insertionSort();
-  quickSort();
+//  quickSort();
+  mergeSort();
   return 0;
 }

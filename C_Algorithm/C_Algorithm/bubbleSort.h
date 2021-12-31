@@ -35,6 +35,8 @@ void bubbleSort(void){
   printf("버블정렬 결과\n");
   for (int i  = 0; i < size; i++)
     printf("%d\t", *(arr+i));
+  
+  free(arr);
 }
 
 #endif /* bubbleSort_h */

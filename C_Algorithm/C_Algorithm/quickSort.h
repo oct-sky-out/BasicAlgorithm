@@ -55,5 +55,7 @@ void quickSort(void){
   for (int i = 0; i < size ; i++) {
     printf("%d\t", *(arr + i));
   }
+  
+  free(arr);
 }
 #endif /* quickSort_h */

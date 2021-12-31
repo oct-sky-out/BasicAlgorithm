@@ -32,6 +32,8 @@ void selectionSort(void){
   printf("정렬 결과\n");
   for (int i = 0; i < size; i++)
     printf("%d\t", *(arr + i));
+  
+  free(arr);
 }
 
 #endif /* selectionSort_h */
