@@ -30,7 +30,7 @@
 //ch6 "정렬 알고리즘"
 #include "bubbleSort.h"
 #include "selectionSort.h"
-#include "insertionSort.h"
+#include "quickSort.h"
 
 int main(int argc, const char * argv[]) {
   // ch 1
@@ -75,6 +75,7 @@ int main(int argc, const char * argv[]) {
   // ch6
   //  bubbleSort();
 //  selectionSort();
-  insertionSort();
+//  insertionSort();
+  quickSort();
   return 0;
 }

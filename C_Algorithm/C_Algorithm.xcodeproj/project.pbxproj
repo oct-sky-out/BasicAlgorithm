@@ -35,6 +35,7 @@
 		8635AF4D277C8F3400697B42 /* bubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bubbleSort.h; sourceTree = "<group>"; };
 		8635AF4E277C9AB500697B42 /* selectionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selectionSort.h; sourceTree = "<group>"; };
 		865AB435277DF1DC002DDC1D /* insertionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = insertionSort.h; sourceTree = "<group>"; };
+		8662C85D277F1FD100B8FE90 /* quickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = quickSort.h; sourceTree = "<group>"; };
 		86679171277847D7005CE8DC /* lingQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lingQueue.h; sourceTree = "<group>"; };
 		8667917227785141005CE8DC /* lingQueueExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lingQueueExample.h; sourceTree = "<group>"; };
 		8667917427786511005CE8DC /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				8625052A276CA49600499F66 /* main.c */,
+				8662C85D277F1FD100B8FE90 /* quickSort.h */,
 				865AB435277DF1DC002DDC1D /* insertionSort.h */,
 				8635AF4E277C9AB500697B42 /* selectionSort.h */,
 				8635AF4D277C8F3400697B42 /* bubbleSort.h */,
