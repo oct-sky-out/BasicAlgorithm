@@ -34,6 +34,9 @@
 #include "quickSort.h"
 #include "mergeSort.h"
 #include "heapSort.h"
+//ch7 "Set 객체 구현"
+#include "set.h"
+#include "setExample.h"
 
 int main(int argc, const char * argv[]) {
   // ch 1
@@ -77,10 +80,13 @@ int main(int argc, const char * argv[]) {
   
   // ch6
   //  bubbleSort();
-//  selectionSort();
-//  insertionSort();
-//  quickSort();
-//  mergeSort();
-  heapSort();
+  //  selectionSort();
+  //  insertionSort();
+  //  quickSort();
+  //  mergeSort();
+  //  heapSort();
+  
+  // ch7
+  setExample();
   return 0;
 }
