@@ -30,8 +30,10 @@
 //ch6 "정렬 알고리즘"
 #include "bubbleSort.h"
 #include "selectionSort.h"
+#include "insertionSort.h"
 #include "quickSort.h"
 #include "mergeSort.h"
+#include "heapSort.h"
 
 int main(int argc, const char * argv[]) {
   // ch 1
@@ -78,6 +80,7 @@ int main(int argc, const char * argv[]) {
 //  selectionSort();
 //  insertionSort();
 //  quickSort();
-  mergeSort();
+//  mergeSort();
+  heapSort();
   return 0;
 }

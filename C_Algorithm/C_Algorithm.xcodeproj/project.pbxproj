@@ -44,6 +44,7 @@
 		869D9A99276E2A8400012A83 /* structure2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structure2.h; sourceTree = "<group>"; };
 		86BE853E2773753B0077A455 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		86BE853F27737FE90077A455 /* stackQueueExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stackQueueExample.h; sourceTree = "<group>"; };
+		86D331A22780453800C91571 /* heapSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = heapSort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				8625052A276CA49600499F66 /* main.c */,
+				86D331A22780453800C91571 /* heapSort.h */,
 				8662C85D277F1FD100B8FE90 /* quickSort.h */,
 				8662C85E277F468C00B8FE90 /* mergeSort.h */,
 				865AB435277DF1DC002DDC1D /* insertionSort.h */,
