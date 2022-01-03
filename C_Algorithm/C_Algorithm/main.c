@@ -37,6 +37,9 @@
 //ch7 "Set 객체 구현"
 #include "set.h"
 #include "setExample.h"
+//ch8 "문자열 다루기"
+#include "string1.h"
+#include "bruteForce.h"
 
 int main(int argc, const char * argv[]) {
   // ch 1
@@ -87,6 +90,10 @@ int main(int argc, const char * argv[]) {
   //  heapSort();
   
   // ch7
-  setExample();
+  //  setExample();
+  
+  //ch8
+//  searchCharExample();
+//  bruteForce();
   return 0;
 }
