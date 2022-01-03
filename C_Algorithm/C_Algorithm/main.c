@@ -40,6 +40,7 @@
 //ch8 "문자열 다루기"
 #include "string1.h"
 #include "bruteForce.h"
+#include "KMP.h"
 
 int main(int argc, const char * argv[]) {
   // ch 1
@@ -95,5 +96,6 @@ int main(int argc, const char * argv[]) {
   //ch8
 //  searchCharExample();
 //  bruteForce();
+  KMP();
   return 0;
 }

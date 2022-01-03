@@ -42,6 +42,7 @@
 		8667917427786511005CE8DC /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		866915F02781EA3F0051AA77 /* string1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = string1.h; sourceTree = "<group>"; };
 		866915F12781EDC20051AA77 /* bruteForce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bruteForce.h; sourceTree = "<group>"; };
+		866915F22782FBA40051AA77 /* KMP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMP.h; sourceTree = "<group>"; };
 		869D9A98276DDB6C00012A83 /* structure1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structure1.h; sourceTree = "<group>"; };
 		869D9A99276E2A8400012A83 /* structure2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structure2.h; sourceTree = "<group>"; };
 		86BE853E2773753B0077A455 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 			children = (
 				8625052A276CA49600499F66 /* main.c */,
 				866915F12781EDC20051AA77 /* bruteForce.h */,
+				866915F22782FBA40051AA77 /* KMP.h */,
 				866915F02781EA3F0051AA77 /* string1.h */,
 				86D331A42780B84300C91571 /* setExample.h */,
 				86D331A32780AAF600C91571 /* set.h */,
